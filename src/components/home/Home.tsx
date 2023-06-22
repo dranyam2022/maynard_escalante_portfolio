@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-import myProfile from "../../assets/351724496_677682120766720_7327602196456495026_n.jpg";
+import myProfile from "../../assets/profile.jpg";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Home = () => {

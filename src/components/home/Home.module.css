@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: calc(82px + 35px) 30px;
+  padding: calc(82px + 35px) 30px 35px;
   gap: 40px;
   background-color: var(--bg-light-grey);
 }
@@ -62,7 +62,6 @@
   font-weight: bold;
   padding: 20px 0px 10px;
   border-bottom: 2px solid var(--light-accent);
-  
 }
 
 .techStacks {
