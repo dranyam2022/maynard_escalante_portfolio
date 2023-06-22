@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-light-white);
+  padding: 35px 30px;
+  gap: 30px;
+}
+
+.container h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--light-accent);
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.contact {
+  background-color: var(--bg-light-grey);
+  font-size: 35px;
+  border-radius: 50%;
+  padding: 15px;
+  color: var(--light-accent);
+  cursor: pointer;
+}
