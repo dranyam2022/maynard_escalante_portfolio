@@ -3,7 +3,7 @@ import { GrMail } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <section className={styles.container}>
       <h3>Contact</h3>
@@ -21,3 +21,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+export default Contact;
