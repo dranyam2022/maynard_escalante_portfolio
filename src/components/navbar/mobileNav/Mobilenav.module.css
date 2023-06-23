@@ -6,7 +6,6 @@
   justify-content: center;
   left: 0;
   position: fixed;
-
   top: 0;
   transition: all 0.3s ease-in-out;
   width: 100%;
@@ -24,18 +23,19 @@
 
 .closeBtn {
   cursor: pointer;
-  font-size: 2rem;
-  position: fixed;
-  right: 35px;
-  top: 35px;
+  font-size: 30px;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .navClose {
-  left: -200%;
+  left: -100%;
 }
 
 .navClose .closeBtn {
-  left: -200%;
+  left: -100%;
 }
 
 .navOpen {
