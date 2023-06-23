@@ -10,7 +10,7 @@ import reactLogo from "../../assets/react.svg";
 
 const Home = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="home">
       <div className={styles.image_container}>
         <img src={myProfile} alt="my profile picture" />
       </div>

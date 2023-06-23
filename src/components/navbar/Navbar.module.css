@@ -19,7 +19,21 @@
   color: var(--light-accent);
 }
 
+.logo:active {
+  transform: scale(0.9);
+}
+
+
 .menu {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: var(--light-accent);
+}
+
+.menu:active {
+  transform: scale(0.9);
 }

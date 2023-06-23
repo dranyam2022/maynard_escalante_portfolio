@@ -5,7 +5,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
       <h3>Contact</h3>
       <h4>
         I want to help you! Contact me below!

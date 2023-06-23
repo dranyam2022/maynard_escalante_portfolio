@@ -21,13 +21,28 @@
   gap: 40px;
 }
 
+.container ul li:hover {
+  color: var(--light-accent);
+}
+
+.container ul li:active {
+  transform: scale(0.9);
+}
+
 .closeBtn {
   cursor: pointer;
   font-size: 30px;
   position: absolute;
   right: 25px;
   top: 30px;
-  transition: all 0.3s ease-in-out;
+}
+
+.closeBtn:hover {
+  color: var(--light-accent);
+}
+
+.closeBtn:active {
+  transform: scale(0.9);
 }
 
 .navClose {

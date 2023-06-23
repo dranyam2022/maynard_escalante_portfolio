@@ -1,4 +1,4 @@
-import { GrClose } from "react-icons/gr";
+import { AiOutlineClose } from "react-icons/ai";
 import styles from "./Mobilenav.module.css";
 
 type navStateProps = {
@@ -15,8 +15,11 @@ const mobileNav = (props: navStateProps) => {
     props.navClick();
   };
   return (
-    <div className={mobileNavClasses}>
-      <GrClose className={styles.closeBtn} onClick={navClickHandler} />
+    <div className={mobileNavClasses} onClick={navClickHandler}>
+      <span>
+        <AiOutlineClose className={styles.closeBtn} />
+      </span>
+
       <ul>
         <li>
           <a href="#home">Home</a>

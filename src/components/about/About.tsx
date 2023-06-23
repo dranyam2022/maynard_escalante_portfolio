@@ -3,7 +3,7 @@ import programming from "../../assets/programming.svg";
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.program}>
         <img src={programming} alt="illustration of someone programming" />
       </div>
