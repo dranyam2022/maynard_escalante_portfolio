@@ -15,6 +15,20 @@ const Navbar = () => {
         <div className={styles.logo}>
           <a href="/">maynard.DEV</a>
         </div>
+        <ul className={styles.nav}>
+          <li className={styles.navItem}>
+            <a href="#home">Home</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#about">About</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#projects">Projects</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
         <div className={styles.menu} onClick={navClickHandler}>
           <BiMenuAltRight />
         </div>

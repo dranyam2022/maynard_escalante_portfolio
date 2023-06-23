@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: calc(82px + 50px) 30px 50px;
+  padding: calc(82px + 50px) 50px 50px;
   gap: 50px;
   background-color: var(--bg-light-grey);
 }
@@ -11,13 +11,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 270px;
-  max-height: 270px;
+  max-width: 280px;
+  max-height: 280px;
   border-radius: 50%;
   border: 3px solid var(--light-bold);
   overflow: hidden;
   animation: var(--morph-name) var(--morph-duration)
     var(--morph-timing-function) var(--morph-iteration-count);
+  transition: all 0.3s ease-in-out;
 }
 
 .image_container img {
@@ -94,4 +95,14 @@
 
 .techStack img {
   aspect-ratio: 1;
+}
+
+@media screen and (min-width: 500px) {
+  .image_container {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .profile h1 {
+    font-size: 55px;
+  }
 }

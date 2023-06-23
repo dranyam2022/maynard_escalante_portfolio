@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-light-white);
-  padding: 25px 30px;
+  padding: 25px 50px;
   position: fixed;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
@@ -23,7 +23,6 @@
   transform: scale(0.9);
 }
 
-
 .menu {
   font-size: 2.3rem;
   font-weight: bold;
@@ -36,4 +35,40 @@
 
 .menu:active {
   transform: scale(0.9);
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-weight: 500;
+  gap: 20px;
+  display: none;
+}
+
+.navItem {
+  font-size: 17px;
+  font-family: Poppins, "sans-serif";
+}
+
+.navItem:hover {
+  color: var(--light-accent);
+}
+.navItem:active {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    padding: 25px 50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .nav {
+    display: flex;
+  }
 }
