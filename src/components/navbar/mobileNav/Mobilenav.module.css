@@ -1,0 +1,50 @@
+.container {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 300;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-size: 2rem;
+  position: fixed;
+  right: 35px;
+  top: 35px;
+}
+
+.navClose {
+  left: -200%;
+}
+
+.navClose .closeBtn {
+  left: -200%;
+}
+
+.navOpen {
+  left: 0;
+}
+
+.container li {
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--light-bold);
+  font-family: Poppins, "sans-serif";
+}
