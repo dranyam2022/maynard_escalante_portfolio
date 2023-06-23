@@ -7,6 +7,9 @@ const Contact = () => {
   return (
     <section className={styles.container}>
       <h3>Contact</h3>
+      <h4>
+        I want to help you! Contact me below!
+      </h4>
       <ul className={styles.contacts}>
         <li className={styles.contact}>
           <GrMail />

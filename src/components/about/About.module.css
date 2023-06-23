@@ -1,12 +1,15 @@
 .container {
   background-color: var(--bg-light-white);
-  padding: 35px 30px;
+  padding: 50px 30px;
 }
 
 .program {
   background-color: var(--bg-light-grey);
-  padding: 10px;
+  padding: 25px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {

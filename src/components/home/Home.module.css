@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: calc(82px + 35px) 30px 35px;
-  gap: 40px;
+  padding: calc(82px + 50px) 30px 50px;
+  gap: 50px;
   background-color: var(--bg-light-grey);
 }
 .image_container {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 270px;
+  max-height: 270px;
   border-radius: 50%;
   border: 3px solid var(--light-bold);
   overflow: hidden;

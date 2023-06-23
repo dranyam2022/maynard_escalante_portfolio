@@ -1,6 +1,12 @@
 import styles from "./Home.module.css";
 import myProfile from "../../assets/profile.jpg";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import htmlLogo from "../../assets/html.svg";
+import cssLogo from "../../assets/css.svg";
+import tailwindLogo from "../../assets/tailwind.svg";
+import javascriptLogo from "../../assets/javascript.svg";
+import typescriptLogo from "../../assets/typescript.svg";
+import reactLogo from "../../assets/react.svg";
 
 const Home = () => {
   return (
@@ -30,38 +36,30 @@ const Home = () => {
         <h3>Tech Stack</h3>
         <ul className={styles.techStacks}>
           <li className={styles.techStack}>
-            <img src="src/assets/html.svg" alt="HTML5 logo" title="HTML5" />
+            <img src={htmlLogo} alt="HTML5 logo" title="HTML5" />
           </li>
           <li className={styles.techStack}>
-            <img src="src/assets/css.svg" alt="CSS3 logo" title="CSS3" />
+            <img src={cssLogo} alt="CSS3 logo" title="CSS3" />
           </li>
           <li className={styles.techStack}>
-            <img
-              src="src/assets/tailwind.svg"
-              alt="TAILWIND logo"
-              title="TAILWIND"
-            />
+            <img src={tailwindLogo} alt="TAILWIND logo" title="TAILWIND" />
           </li>
           <li className={styles.techStack}>
             <img
-              src="src/assets/javascript.svg"
+              src={javascriptLogo}
               alt="JAVASCRIPT logo"
               title="JAVASCRIPT"
             />
           </li>
           <li className={styles.techStack}>
             <img
-              src="src/assets/typescript.svg"
+              src={typescriptLogo}
               alt="TYPESCRIPT logo"
               title="TYPESCRIPT"
             />
           </li>
           <li className={styles.techStack}>
-            <img
-              src="src/assets/react.svg"
-              alt="REACTJS logo"
-              title="REACTJS"
-            />
+            <img src={reactLogo} alt="REACTJS logo" title="REACTJS" />
           </li>
         </ul>
       </div>
