@@ -9,10 +9,11 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/maynard-escalante-3033ab1a3/"
           target="_blank"
+          title="linkedin"
         >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/dranyam2022" target="_blank">
+        <a href="https://github.com/dranyam2022" target="_blank" title="github">
           <BsGithub />
         </a>
       </div>
