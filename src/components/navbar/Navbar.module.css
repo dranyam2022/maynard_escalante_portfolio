@@ -15,6 +15,10 @@
   font-size: 1.3rem;
 }
 
+.logo:hover {
+  color: var(--light-accent);
+}
+
 .menu {
   font-size: 2rem;
   font-weight: bold;
