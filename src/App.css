@@ -1,21 +1,26 @@
 /* CSS variables */
 :root {
+  /* colors */
   --light-bold: #2d2e32;
   --light-grey: #555;
   --light-accent: #147efb;
   --bg-light-grey: #f9f9f9;
   --bg-light-white: #fff;
 
+  /* animation */
   --morph-name: myAnimation;
   --morph-duration: 8s;
   --morph-timing-function: ease-in-out;
   --morph-iteration-count: infinite;
 
+  /* view width sizes */
   --sm-vw: 640px;
   --md-vw: 768px;
   --lg-vw: 1024px;
   --xl-vw: 1280px;
 }
+
+/* CSS animation */
 
 @keyframes myAnimation {
   0% {

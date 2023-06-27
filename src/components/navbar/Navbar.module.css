@@ -3,16 +3,18 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-light-white);
-  padding: 25px 50px;
+  padding: 2.5rem 3.5rem;
   position: fixed;
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.09);
+  gap: 5rem;
+  min-width: 26.8rem;
 }
 
 .logo {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
 }
 
 .logo:hover {
@@ -24,9 +26,10 @@
 }
 
 .menu {
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .menu:hover {
@@ -42,12 +45,12 @@
   align-items: center;
   list-style: none;
   font-weight: 500;
-  gap: 20px;
+  gap: 2rem;
   display: none;
 }
 
 .navItem {
-  font-size: 17px;
+  font-size: 1.8rem;
   font-family: Poppins, "sans-serif";
 }
 
