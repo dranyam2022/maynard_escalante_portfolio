@@ -106,3 +106,39 @@
     font-size: 55px;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .image_container {
+    grid-column: span 2;
+  }
+  .profile {
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    grid-column: span 3;
+    order: -1;
+    gap: 20px;
+  }
+
+  .techStack_container {
+    grid-column: span 5;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+  }
+
+  .techStack_container h3 {
+    border-bottom: none;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-right: 1px solid var(--light-accent);
+  }
+}

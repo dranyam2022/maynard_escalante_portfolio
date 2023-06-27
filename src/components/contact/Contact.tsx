@@ -1,7 +1,6 @@
-import styles from "./Contact.module.css";
-import { GrMail } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
-import { RiWhatsappFill } from "react-icons/ri";
+import { GrMail } from "react-icons/gr";
+import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
@@ -9,20 +8,27 @@ const Contact = () => {
       <h3>Contact</h3>
       <h4>I want to help you! Contact me below!</h4>
       <ul className={styles.contacts}>
-        <li className={styles.contact}>
-          <a href="mailto:maynardescalante2015@gmail.com" title="mail">
-            <GrMail />
-          </a>
+        <li className={styles.contact_container}>
+          <div className={styles.contact}>
+            <a href="mailto:maynardescalante2015@gmail.com" title="mail">
+              <GrMail />
+            </a>
+          </div>
+          <h5>email</h5>
+          <p>maynardescalante@gmail.com</p>
         </li>
-        <li className={styles.contact}>
-          <a href="https://www.facebook.com/maynard.escalante" target="_blank" title="facebook">
-            <BsFacebook />
-          </a>
-        </li>
-        <li className={styles.contact}>
-          <a href="https://wa.me/+639959706655" target="_blank" title="whatsapp">
-            <RiWhatsappFill />
-          </a>
+        <li className={styles.contact_container}>
+          <div className={styles.contact}>
+            <a
+              href="https://www.facebook.com/maynard.escalante"
+              target="_blank"
+              title="facebook"
+            >
+              <BsFacebook />
+            </a>
+          </div>
+          <h5>facebook</h5>
+          <p>facebook.com/maynard.escalante</p>
         </li>
       </ul>
     </section>
