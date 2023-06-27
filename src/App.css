@@ -10,6 +10,11 @@
   --morph-duration: 8s;
   --morph-timing-function: ease-in-out;
   --morph-iteration-count: infinite;
+
+  --sm-vw: 640px;
+  --md-vw: 768px;
+  --lg-vw: 1024px;
+  --xl-vw: 1280px;
 }
 
 @keyframes myAnimation {
