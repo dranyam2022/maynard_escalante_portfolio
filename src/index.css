@@ -15,11 +15,12 @@
   font: inherit;
 }
 
-/* dark mode user-agent-styles */
+/* dark mode user-agent-styles and set font-size */
 
-/* html {
-  color-scheme: dark light;
-} */
+html {
+  /* color-scheme: dark light; */
+  font-size: 62.5%;
+}
 
 /* min body height */
 
@@ -55,5 +56,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-
