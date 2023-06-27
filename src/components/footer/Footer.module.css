@@ -16,3 +16,11 @@
   gap: 2rem;
   font-size: 1.8rem;
 }
+
+.socials a:hover {
+  color: var(--light-accent);
+}
+
+.socials a:active {
+  transform: scale(1.2);
+}

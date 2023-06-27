@@ -14,7 +14,7 @@
   max-width: 28rem;
   max-height: 28rem;
   border-radius: 50%;
-  border: .3rem solid var(--light-bold);
+  border: 0.3rem solid var(--light-bold);
   overflow: hidden;
   animation: var(--morph-name) var(--morph-duration)
     var(--morph-timing-function) var(--morph-iteration-count);
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 3.5rem
+  gap: 3.5rem;
 }
 
 .profile h1 {
@@ -61,6 +61,13 @@
   gap: 2rem;
 }
 
+.socials a:hover {
+  color: var(--light-accent);
+}
+.socials a:active {
+  transform: scale(0.9);
+}
+
 .techStack_container {
   text-align: center;
 }
@@ -72,7 +79,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   padding: 2rem 0 1rem;
-  border-bottom:.2rem solid var(--light-accent);
+  border-bottom: 0.2rem solid var(--light-accent);
 }
 
 .techStacks {
@@ -99,11 +106,15 @@
 
 @media screen and (min-width: 500px) {
   .image_container {
-    max-width:35rem;
+    max-width: 35rem;
     max-height: 35rem;
   }
   .profile h1 {
     font-size: 5.5rem;
+    max-width: 20ch;
+  }
+  .profile p {
+    max-width: 40ch;
   }
 }
 
@@ -139,6 +150,6 @@
     padding-right: 2rem;
     padding-top: 0;
     padding-bottom: 0;
-    border-right: .1rem solid var(--light-accent);
+    border-right: 0.1rem solid var(--light-accent);
   }
 }
