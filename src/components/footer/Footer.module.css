@@ -1,18 +1,18 @@
 .container {
   background-color: var(--light-bold);
-  padding: 50px 20px;
+  padding: 5rem 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 2.5rem;
   color: var(--bg-light-white);
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .socials {
   display: flex;
-  gap: 20px;
-  font-size: 18px;
+  gap: 2rem;
+  font-size: 1.8rem;
 }

@@ -3,18 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: calc(82px + 50px) 50px 50px;
-  gap: 50px;
+  padding: calc(8.2rem + 5rem) 5rem 5rem;
+  gap: 5rem;
   background-color: var(--bg-light-grey);
 }
 .image_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 280px;
-  max-height: 280px;
+  max-width: 28rem;
+  max-height: 28rem;
   border-radius: 50%;
-  border: 3px solid var(--light-bold);
+  border: .3rem solid var(--light-bold);
   overflow: hidden;
   animation: var(--morph-name) var(--morph-duration)
     var(--morph-timing-function) var(--morph-iteration-count);
@@ -39,17 +39,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 35px;
+  gap: 3.5rem
 }
 
 .profile h1 {
-  font-size: 39px;
+  font-size: 3.9rem;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .profile p {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 
@@ -57,8 +57,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  gap: 20px;
+  font-size: 3rem;
+  gap: 2rem;
 }
 
 .techStack_container {
@@ -69,10 +69,10 @@
   color: var(--light-accent);
   display: inline-block;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
-  padding: 20px 0px 10px;
-  border-bottom: 2px solid var(--light-accent);
+  padding: 2rem 0 1rem;
+  border-bottom:.2rem solid var(--light-accent);
 }
 
 .techStacks {
@@ -80,17 +80,17 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 35px 30px;
+  padding: 3.5rem 3rem;
   list-style: none;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .techStack {
-  width: 70px;
+  width: 7rem;
   background-color: var(--bg-light-white);
-  padding: 15px;
+  padding: 1.5rem;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.09);
 }
 
 .techStack img {
@@ -99,11 +99,11 @@
 
 @media screen and (min-width: 500px) {
   .image_container {
-    max-width: 350px;
-    max-height: 350px;
+    max-width:35rem;
+    max-height: 35rem;
   }
   .profile h1 {
-    font-size: 55px;
+    font-size: 5.5rem;
   }
 }
 
@@ -123,7 +123,7 @@
     text-align: start;
     grid-column: span 3;
     order: -1;
-    gap: 20px;
+    gap: 2rem;
   }
 
   .techStack_container {
@@ -136,9 +136,9 @@
 
   .techStack_container h3 {
     border-bottom: none;
-    padding-right: 20px;
+    padding-right: 2rem;
     padding-top: 0;
     padding-bottom: 0;
-    border-right: 1px solid var(--light-accent);
+    border-right: .1rem solid var(--light-accent);
   }
 }
