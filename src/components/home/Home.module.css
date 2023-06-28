@@ -28,6 +28,7 @@
   animation: var(--morph-name) var(--morph-duration)
     var(--morph-timing-function) var(--morph-iteration-count);
   order: -1;
+  transition: all 1s ease-in-out;
 }
 
 .hero_text {
@@ -90,4 +91,15 @@
   background-color: var(--bg-light-white);
   padding: 1.5rem;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 500px) {
+  .hero_image {
+    width: 35rem;
+    height: 35rem;
+  }
+  .hero_text h1 {
+    font-size: 5.5rem;
+    max-width: 10ch;
+  }
 }
