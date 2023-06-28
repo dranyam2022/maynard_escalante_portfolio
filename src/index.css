@@ -20,6 +20,7 @@
 html {
   /* color-scheme: dark light; */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* min body height */
