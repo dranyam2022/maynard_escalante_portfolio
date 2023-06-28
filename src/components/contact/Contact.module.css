@@ -65,7 +65,7 @@
   .container {
     align-items: start;
     text-align: start;
-    padding: 10rem 5rem;
+    padding: 12rem 5rem;
   }
 
   .content {
@@ -74,7 +74,7 @@
   .contacts {
     flex-direction: row;
     justify-content: start;
-    gap: 5rem;
+    gap: 30rem;
   }
 
   .contact_container {
