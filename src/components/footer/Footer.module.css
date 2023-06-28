@@ -24,3 +24,17 @@
 .socials a:active {
   transform: scale(1.2);
 }
+
+@media screen and (min-width: 500px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    justify-content: center;
+    gap: 30rem;
+  }
+}

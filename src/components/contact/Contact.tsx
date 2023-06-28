@@ -14,8 +14,10 @@ const Contact = () => {
               <GrMail />
             </a>
           </div>
-          <h5>email</h5>
-          <p>maynardescalante@gmail.com</p>
+          <div>
+            <h5>email</h5>
+            <p>maynardescalante@gmail.com</p>
+          </div>
         </li>
         <li className={styles.contact_container}>
           <div className={styles.contact}>
@@ -27,8 +29,10 @@ const Contact = () => {
               <BsFacebook />
             </a>
           </div>
-          <h5>facebook</h5>
-          <p>facebook.com/maynard.escalante</p>
+          <div>
+            <h5>facebook</h5>
+            <p>facebook.com/maynard.escalante</p>
+          </div>
         </li>
       </ul>
     </section>

@@ -16,7 +16,7 @@
 }
 
 .container h4 {
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .contacts {
@@ -59,4 +59,23 @@
 }
 .contact:active {
   transform: scale(0.9);
+}
+
+@media screen and (min-width: 750px) {
+  .container {
+    display: block;
+    text-align: start;
+    padding: 10rem 5rem;
+  }
+
+  .contacts {
+    flex-direction: row;
+    justify-content: start;
+    gap: 5rem;
+  }
+
+  .contact_container {
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
