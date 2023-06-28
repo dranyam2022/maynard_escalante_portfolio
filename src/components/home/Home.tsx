@@ -13,6 +13,7 @@ const Home = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.hero_main}>
+            <div className={styles.hero_image}></div>
             <div className={styles.hero_text}>
               <h1>Front-End React Developer</h1>
               <p>
@@ -36,7 +37,6 @@ const Home = () => {
                 </a>
               </span>
             </div>
-            <div className={styles.hero_image}></div>
           </div>
           <div className={styles.skills}>
             <h3>Tech Stack</h3>

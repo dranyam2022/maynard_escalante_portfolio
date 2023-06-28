@@ -46,3 +46,26 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    max-width: 107rem;
+    margin: 0 auto;
+  }
+
+  .program {
+    margin: 0;
+    max-width: 40rem;
+    max-height: 40rem;
+  }
+
+  .about {
+    align-items: center;
+    text-align: left;
+  }
+}

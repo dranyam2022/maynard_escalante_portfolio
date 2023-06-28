@@ -63,11 +63,14 @@
 
 @media screen and (min-width: 750px) {
   .container {
-    display: block;
+    align-items: start;
     text-align: start;
     padding: 10rem 5rem;
   }
 
+  .content {
+    margin: 0 auto;
+  }
   .contacts {
     flex-direction: row;
     justify-content: start;

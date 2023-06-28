@@ -37,4 +37,8 @@
     justify-content: center;
     gap: 30rem;
   }
+  .socials {
+    font-size: 3rem;
+    gap: 3rem;
+  }
 }
