@@ -16,12 +16,7 @@ const Projects = () => {
             <div className={styles["card-body"]}>
               <div className={styles["card-text"]}>
                 <h3>{project.title}</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Incidunt ab non debitis, error veniam assumenda nulla quod
-                  vitae quam distinctio aliquam repellat et exercitationem
-                  corrupti nobis eum a deserunt vero?
-                </p>
+                <p>{project.text}</p>
               </div>
               <div className={styles["button-container"]}>
                 <div className={styles.button}>
