@@ -30,16 +30,28 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .card-body {
-  padding: 2rem;
+  padding: 0 3rem 2rem;
   font-size: 1.5rem;
   color: var(--bg-light-grey);
 }
 
-.card-body p {
+.card-text h3 {
+  font-size: 2rem;
+}
+
+.card-text {
   color: var(--light-grey);
+  padding: 3rem;
+}
+
+.card-text p {
   font-weight: 400;
+  margin-top: 2rem;
 }
 
 .card-thumbnail {

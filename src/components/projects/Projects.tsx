@@ -14,13 +14,15 @@ const Projects = () => {
               </a>
             </div>
             <div className={styles["card-body"]}>
-              <h3>Title</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt ab non debitis, error veniam assumenda nulla quod vitae
-                quam distinctio aliquam repellat et exercitationem corrupti
-                nobis eum a deserunt vero?
-              </p>
+              <div className={styles["card-text"]}>
+                <h3>{project.title}</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt ab non debitis, error veniam assumenda nulla quod
+                  vitae quam distinctio aliquam repellat et exercitationem
+                  corrupti nobis eum a deserunt vero?
+                </p>
+              </div>
               <div className={styles["button-container"]}>
                 <div className={styles.button}>
                   <a href={project.url} target="_blank">
