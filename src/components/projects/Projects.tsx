@@ -1,22 +1,5 @@
 import styles from "./Projects.module.css";
-import resort from "../../assets/img/resort.png";
-import joketeller from "../../assets/img/joketeller.png";
-const projects = [
-  {
-    img: resort,
-    title: "Resort Booking Website",
-    text: "lorem",
-    url: "https://resort-booking-swart.vercel.app/",
-    github: "https://github.com/dranyam2022/resort-booking",
-  },
-  {
-    img: joketeller,
-    title: "Joke Teller",
-    text: "lorem",
-    url: "https://joke-teller-gray.vercel.app/",
-    github: "https://github.com/dranyam2022/joke-teller",
-  },
-];
+import { projects } from "../../assets/seeds/projects";
 
 const Projects = () => {
   return (
