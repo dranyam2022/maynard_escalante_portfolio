@@ -16,8 +16,6 @@ const projects = [
   },
 ];
 
-import React from "react";
-
 const Projects = () => {
   return (
     <section className={styles.container} id="projects">
