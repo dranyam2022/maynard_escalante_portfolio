@@ -7,12 +7,14 @@ const projects = [
     title: "Resort Booking Website",
     text: "lorem",
     url: "https://resort-booking-swart.vercel.app/",
+    github: "https://github.com/dranyam2022/resort-booking",
   },
   {
     img: joketeller,
     title: "Joke Teller",
     text: "lorem",
     url: "https://joke-teller-gray.vercel.app/",
+    github: "https://github.com/dranyam2022/joke-teller",
   },
 ];
 
@@ -38,12 +40,12 @@ const Projects = () => {
               </p>
               <div className={styles["button-container"]}>
                 <div className={styles.button}>
-                  <a href="https://www.google.com/" target="_blank">
+                  <a href={project.url} target="_blank">
                     View Project
                   </a>
                 </div>
                 <div className={styles.button}>
-                  <a href="https://www.google.com/" target="_blank">
+                  <a href={project.github} target="_blank">
                     Github Link
                   </a>
                 </div>
