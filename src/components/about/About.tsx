@@ -9,16 +9,17 @@ const About = () => {
       </div>
       <div className={styles.about}>
         <h3>ABOUT ME</h3>
-        <h2>A dedicated Front-end Developer based in Cebu, Philippines.</h2>
+        <h2>
+          A dedicated Full Stack Web Developer based in Cebu, Philippines.
+        </h2>
         <p>
-          As a Junior Front-End Developer, I possess an impressive arsenal of
-          skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
-          designing and maintaining responsive websites that offer a smooth user
-          experience. My expertise lies in crafting dynamic, engaging interfaces
-          through writing clean and optimized code and utilizing cutting-edge
-          development tools and techniques. I am also a team player who thrives
-          in collaborating with cross-functional teams to produce outstanding
-          web applications.
+          I am a self-taught Full Stack Web Developer with a strong foundation
+          built through Udemy courses and further honed by completing the Zuitt
+          Full Stack Bootcamp. My passion for web development is matched only by
+          my eagerness to continually enhance my skills. I am a certified
+          problem solver with valuable experience in technical support for
+          mobile and electronic companies, bringing a unique blend of technical
+          expertise and problem-solving acumen to any project.
         </p>
       </div>
     </section>

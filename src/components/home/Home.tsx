@@ -1,11 +1,6 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import cssLogo from "../../assets/css.svg";
-import htmlLogo from "../../assets/html.svg";
-import javascriptLogo from "../../assets/javascript.svg";
-import reactLogo from "../../assets/react.svg";
-import tailwindLogo from "../../assets/tailwind.svg";
-import typescriptLogo from "../../assets/typescript.svg";
 import styles from "./Home.module.css";
+import TechStack from "./TechStack";
 
 const Home = () => {
   return (
@@ -15,10 +10,10 @@ const Home = () => {
           <div className={styles.hero_main}>
             <div className={styles.hero_image}></div>
             <div className={styles.hero_text}>
-              <h1>Front-End React Developer</h1>
+              <h1>Full Stack Web Developer</h1>
               <p>
-                Hi, I'm Maynard Escalante. A passionate Front-end React
-                Developer based in Cebu, Philippines.
+                Hi, I'm Maynard Escalante. A passionate Full Stack Web Developer
+                based in Cebu, Philippines.
               </p>
               <span>
                 <a
@@ -40,34 +35,9 @@ const Home = () => {
           </div>
           <div className={styles.skills}>
             <h3>Tech Stack</h3>
-            <ul className={styles.techStacks}>
-              <li className={styles.techStack}>
-                <img src={htmlLogo} alt="HTML5 logo" title="HTML5" />
-              </li>
-              <li className={styles.techStack}>
-                <img src={cssLogo} alt="CSS3 logo" title="CSS3" />
-              </li>
-              <li className={styles.techStack}>
-                <img src={tailwindLogo} alt="TAILWIND logo" title="TAILWIND" />
-              </li>
-              <li className={styles.techStack}>
-                <img
-                  src={javascriptLogo}
-                  alt="JAVASCRIPT logo"
-                  title="JAVASCRIPT"
-                />
-              </li>
-              <li className={styles.techStack}>
-                <img
-                  src={typescriptLogo}
-                  alt="TYPESCRIPT logo"
-                  title="TYPESCRIPT"
-                />
-              </li>
-              <li className={styles.techStack}>
-                <img src={reactLogo} alt="REACTJS logo" title="REACTJS" />
-              </li>
-            </ul>
+            <div className={styles.techStackContainer}>
+              <TechStack />
+            </div>
           </div>
         </div>
       </div>
