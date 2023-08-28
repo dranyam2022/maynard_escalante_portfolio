@@ -9,6 +9,7 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.09);
   gap: 5rem;
   min-width: 26.8rem;
+  z-index: 99;
 }
 
 .logo {

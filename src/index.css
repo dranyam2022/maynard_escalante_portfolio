@@ -39,7 +39,8 @@ video {
   max-width: 100%;
 }
 
-p {
+p,
+a {
   font-family: "Mulish", sans-serif;
   color: rgb(85, 85, 85);
 }

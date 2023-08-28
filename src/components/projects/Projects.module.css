@@ -9,3 +9,66 @@
   padding: 50px 30px;
   background-color: var(--bg-light-grey);
 }
+
+.title {
+  padding: 4rem;
+}
+
+.card-container {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 0.9rem;
+  overflow: hidden;
+  max-width: 40rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-body {
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: var(--bg-light-grey);
+}
+
+.card-body p {
+  color: var(--light-grey);
+  font-weight: 400;
+}
+
+.card-thumbnail {
+  position: relative;
+}
+
+.image {
+  width: 100%; /* 100% of the container's width */
+}
+.button-container {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.button {
+  padding: 1rem 3rem;
+  background-color: var(--light-bold);
+  border-radius: 0.6rem;
+  user-select: none;
+}
+
+.button:hover {
+  color: var(--light-accent);
+}
+
+.button:active {
+  transform: scale(0.9);
+}

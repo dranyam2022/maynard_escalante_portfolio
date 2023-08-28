@@ -1,14 +1,14 @@
-import cssLogo from "../../assets/css.svg";
-import htmlLogo from "../../assets/html.svg";
-import javascriptLogo from "../../assets/javascript.svg";
-import reactLogo from "../../assets/react.svg";
-import tailwindLogo from "../../assets/tailwind.svg";
-import typescriptLogo from "../../assets/typescript.svg";
-import nodeLogo from "../../assets/node.svg";
-import mysqlLogo from "../../assets/mysql.svg";
-import phpLogo from "../../assets/php.svg";
-import bootstrapLogo from "../../assets/bootstrap.svg";
-import mongodbLogo from "../../assets/mongodb.svg";
+import cssLogo from "../../assets/svg/css.svg";
+import htmlLogo from "../../assets/svg/html.svg";
+import javascriptLogo from "../../assets/svg/javascript.svg";
+import reactLogo from "../../assets/svg/react.svg";
+import tailwindLogo from "../../assets/svg/tailwind.svg";
+import typescriptLogo from "../../assets/svg/typescript.svg";
+import nodeLogo from "../../assets/svg/node.svg";
+import mysqlLogo from "../../assets/svg/mysql.svg";
+import phpLogo from "../../assets/svg/php.svg";
+import bootstrapLogo from "../../assets/svg/bootstrap.svg";
+import mongodbLogo from "../../assets/svg/mongodb.svg";
 import styles from "./TechStack.module.css";
 
 const TechStack = () => {

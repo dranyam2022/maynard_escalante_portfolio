@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import programming from "../../assets/programming.svg";
+import programming from "../../assets/svg/programming.svg";
 
 const About = () => {
   return (
