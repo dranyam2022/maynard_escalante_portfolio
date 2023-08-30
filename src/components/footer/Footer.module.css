@@ -8,10 +8,11 @@
   gap: 2.5rem;
   color: var(--bg-light-white);
   font-size: 1rem;
+  overflow-x: hidden;
 }
 
 .copywrite {
-  width: 70ch;
+  max-width: 70ch;
   text-align: center;
 }
 .socials {
