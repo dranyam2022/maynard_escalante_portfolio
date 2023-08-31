@@ -92,7 +92,7 @@
   transform: scale(0.9);
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
   .card-text p {
     max-height: 12rem;
   }
