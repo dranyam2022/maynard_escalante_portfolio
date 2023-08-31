@@ -53,7 +53,6 @@
   font-weight: 400;
   margin-top: 2rem;
   overflow: hidden;
-  max-height: 12rem;
 }
 
 .card-thumbnail {
@@ -91,4 +90,10 @@
 
 .button:active {
   transform: scale(0.9);
+}
+
+@media screen and (min-width: 500px) {
+  .card-text p {
+    max-height: 12rem;
+  }
 }
