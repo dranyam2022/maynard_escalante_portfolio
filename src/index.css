@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* makes sizing simpler */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* dark mode user-agent-styles and set font-size */
+
+html {
+  /* color-scheme: dark light; */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* min body height */
+
+body {
+  min-height: 100vh;
+  color: rgb(45, 46, 50);
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+a {
+  font-family: "Mulish", sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
